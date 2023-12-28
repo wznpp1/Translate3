@@ -12,6 +12,7 @@ import (
 )
 
 type MapA map[string]string
+type StrSliceA []string
 
 var MapA1 = MapA{}
 var Gtranslate = Translate2.New()
