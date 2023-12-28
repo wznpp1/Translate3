@@ -20,7 +20,7 @@ var Gtranslate = Translate2.New()
 var NotTranslated = make([]string, 0)
 var Regexp5 = regexp.MustCompile(`(\[.*?\])+|(\{.*?\})+|\\[\\A-Za-z]+|%[%A-Za-z]+|[\p{P}]{2,}`)
 
-func AddOrGetStrings(Strings []string) (map[string]string, error) {
+func AddOrGetStrings(Strings StrSliceA) (map[string]string, error) {
 	Map1 := map[string]string{}
 
 	for _, k := range Strings {
